@@ -132,22 +132,23 @@ Once you can access the web interface, try a few examples on your own.
 
 **1. current stock price and latest quaterly earnings**
 
-Prompt: Find the current stock price and a summary of the latest quarterly earnings report for Apple, Tesla, and Microsoft. Put the data in a bulleted list.
+**Prompt:** Find the current stock price and a summary of the latest quarterly earnings report for Apple, Tesla, and Microsoft. Put the data in a bulleted list.
 
 **2. write a summary**
 
-Prompt: find out today's tech news and summarize it in 300 words.
+**Prompt:** find out today's tech news and summarize it in 300 words.
 
 
 ## Examples for AI assisntant
 
 **1. Add items to my grocery list**
 
-Prompt: Go to ubereats.com and add 2% milk and table salt to my cart from walmart.
+**Prompt:** Go to ubereats.com and add 2% milk and table salt to my cart from walmart.
 
 **2. Job hunting assistant**
 
-Prompt:
+**Prompt:**
+
 You are a job-hunt assistant.  
 1. Go to https://www.linkedin.com/jobs/  
 2. Find the first “Top job picks for you” listing.  
