@@ -31,28 +31,40 @@ cd web-ui
 ```
 
 ### Step 2: Set up the Python environment
-```python -m venv .venv```
+```
+python -m venv .venv
+```
 
 Activate the virtual environment:
-```.venv\Scripts\activate```
+```
+.venv\Scripts\activate
+```
 
 ### Step 3: Install dependencies
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 Install the browser in Playwright:
-```playwright install --with-deps```
+```
+playwright install --with-deps
+```
 
 ### Step 4: Configure environment
 **Note:** If you only want to try it out, you can skip this step and add your API key directly in the website.
 
 Create a copy of the example environment file:
-```copy .env.example .env```
+```
+copy .env.example .env
+```
 
 Open `.env` in your preferred text editor and add your API keys and other settings.
 
 ### Step 5: Run the Web UI
 **run the web-ui:**
-```python webui.py --ip 127.0.0.1 --port 7788```
+```
+python webui.py --ip 127.0.0.1 --port 7788
+```
 
 **Access the WebUI:** Open your web browser and navigate to http://127.0.0.1:7788
 
@@ -71,28 +83,40 @@ cd web-ui
 ```
 
 ### Step 2: Set up the Python environment
-```python -m venv .venv```
+```
+python -m venv .venv
+```
 
 Activate the virtual environment:
-```source .venv/bin/activate```
+```
+source .venv/bin/activate
+```
 
 ### Step 3: Install Dependencies
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 **Install Browser in playwright:**
-```playwright install --with-deps```
+```
+playwright install --with-deps
+```
 
 ### Step 4: Configure Environment
 **Note:** If you only want to try it out, you can skip this step and add your API key directly in the website.
 
 Create a copy of the example environment file:
-```copy .env.example .env```
+```
+cp .env.example .env
+```
 
 open `.env` in your preferred text editor and add your API keys and other settings
 
 ### Step 5: Enjoy the web-ui
 **run the web-ui:**
-```python webui.py --ip 127.0.0.1 --port 7788```
+```
+python webui.py --ip 127.0.0.1 --port 7788
+```
 
 **Access the WebUI:** Open your web browser and navigate to http://127.0.0.1:7788
 
